@@ -25,7 +25,7 @@ void loop() {
   int x = input1.toInt();
   int y = input2.toInt();
   int sum = x + y;
-  Serial.print("\n");
+  Serial.print("\nSoučet: ");
   Serial.print(sum);
   Serial.print("\n");
 }
